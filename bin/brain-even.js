@@ -17,12 +17,11 @@ const evenGame = () => {
     if (trueAnswer === userAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.
+      return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.
 Let's try again, ${name}!`);
-      break;
     }
   }
-  return console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${name}!`);
 };
 
 evenGame();
