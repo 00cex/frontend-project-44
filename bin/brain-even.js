@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-import readlineSync from 'readline-sync';
 import func from '../src/index.js';
 
-const description = 'Answer "yes" if the number is even, otherwise answer "no".'
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const game = () => {
   const isEven = (num) => num % 2 === 0;
