@@ -7,7 +7,7 @@ export default function runCalc() {
     const randomNumber2 = Math.floor(Math.random() * 100) + 1;
     const operations = ['+', '-', '*'];
     const randomOperation = operations[Math.floor(Math.random() * operations.length)];
-    const question = `${randomNumber1}${randomOperation}${randomNumber2}`;
+    const question = `${randomNumber1} ${randomOperation} ${randomNumber2}`;
     let trueAnswer;
     if (randomOperation === '+') {
       trueAnswer = randomNumber1 + randomNumber2;
